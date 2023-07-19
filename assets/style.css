@@ -1,0 +1,32 @@
+
+.navbar-nav :hover{
+    color: rgb(204, 9, 243);
+	background-color: #d009e2;
+     
+    }
+
+.barra {
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 430px;
+
+}
+.galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+ }
+
+.galeria img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
